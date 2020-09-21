@@ -12,8 +12,4 @@ describe Flight, type: :model do
     it {should have_many(:passengers).through(:flight_passengers)}
   end
 
-  describe 'instance methods' do
-
-  end
-
 end
